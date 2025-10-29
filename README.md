@@ -1,4 +1,4 @@
-# 
+# @ops-dss/starter-local-nextjs
 
 Part of the DSS (Determinantes Sociales de la Salud) Health Indicators Monitoring System.
 

@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-screen p-8">
       <header className="mb-8">
         <h1 className="text-3xl font-bold mb-2">
-          Test Dashboard de Determinantes Sociales de la Salud
+          Dashboard de Determinantes Sociales de la Salud
         </h1>
         <p className="text-gray-600">
           Monitoreo de indicadores de salud para gobiernos locales
