@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import { useParquetData } from '@repo/explorers/data-loader'
-import { IndicatorExplorer } from '@repo/explorers/indicator-explorer'
-import { DSLineChart } from '@repo/charts/line-chart'
+import { useParquetData } from '@ops-dss/explorers/data-loader'
+import { IndicatorExplorer } from '@ops-dss/explorers/indicator-explorer'
+import { DSLineChart } from '@ops-dss/charts/line-chart'
 
 interface MalnutritionData {
   Departamento: string

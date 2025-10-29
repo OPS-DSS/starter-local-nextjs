@@ -1,26 +1,26 @@
 {
-  "name": "starter-local-nextjs",
-  "version": "0.1.0",
-  "private": true,
+  "name": "",
+  "version": "0.0.1",
+  "private": false,
+  "author": "OPS/PAHO",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint",
-    "check-types": "tsc --noEmit"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "@repo/charts": "workspace:*",
-    "@repo/explorers": "workspace:*",
+    "@ops-dss/ui": "workspace:*",
+    "@ops-dss/charts": "workspace:*",
+    "@ops-dss/explorers": "workspace:*",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "next": "15.5.4"
   },
   "devDependencies": {
-    "@repo/ui": "workspace:*",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@ops-dss/ui": "workspace:*",
+    "@ops-dss/eslint-config": "workspace:*",
+    "@ops-dss/typescript-config": "workspace:*",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -30,6 +30,12 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "@eslint/eslintrc": "^3"
-
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OPS-DSS/starter-local-nextjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OPS-DSS/starter-local-nextjs/issues"
   }
 }

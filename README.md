@@ -1,8 +1,8 @@
-# starter-local-nextjs
+# 
 
-Part of the DSS Health Indicators Monitoring System
+Part of the DSS (Determinantes Sociales de la Salud) Health Indicators Monitoring System.
 
-This application is automatically synced from the main monorepo.
+This repository is automatically synced from the main monorepo.
 
 ## Development
 
@@ -11,6 +11,18 @@ npm install
 npm run dev
 ```
 
+## Building
+
+```bash
+npm run build
+```
+
 ## Contributing
 
-Please submit pull requests to this repository. Approved changes will be synced back to the main monorepo.
+Thank you for your interest in contributing! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+Changes made to this repository will be automatically synced back to the main monorepo upon approval.
+
+## License
+
+MIT

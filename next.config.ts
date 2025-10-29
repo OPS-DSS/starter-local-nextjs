@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['@repo/ui', '@repo/charts', '@repo/explorers'],
+  transpilePackages: ['@ops-dss/ui', '@ops-dss/charts', '@ops-dss/explorers'],
 }
 
 export default nextConfig
