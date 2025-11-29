@@ -2,6 +2,10 @@
   "name": "@ops-dss/starter-local-nextjs",
   "version": "0.0.1",
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "OPS/PAHO",
   "scripts": {
     "dev": "next dev --turbopack",
@@ -37,9 +41,5 @@
   },
   "bugs": {
     "url": "https://github.com/OPS-DSS/starter-local-nextjs/issues"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
   }
 }
