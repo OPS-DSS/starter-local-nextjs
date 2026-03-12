@@ -15,17 +15,17 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ops-dss/ui": "workspace:*",
-    "@ops-dss/charts": "workspace:*",
-    "@ops-dss/explorers": "workspace:*",
+    "@ops-dss/ui": "latest",
+    "@ops-dss/charts": "latest",
+    "@ops-dss/explorers": "latest",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "next": "15.5.4"
   },
   "devDependencies": {
-    "@ops-dss/ui": "workspace:*",
-    "@ops-dss/eslint-config": "workspace:*",
-    "@ops-dss/typescript-config": "workspace:*",
+    "@ops-dss/ui": "latest",
+    "@ops-dss/eslint-config": "latest",
+    "@ops-dss/typescript-config": "latest",
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
