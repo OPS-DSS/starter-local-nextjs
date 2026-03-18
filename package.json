@@ -17,7 +17,6 @@
   "dependencies": {
     "@ops-dss/ui": "latest",
     "@ops-dss/charts": "latest",
-    "@ops-dss/explorers": "latest",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "next": "15.5.4"
