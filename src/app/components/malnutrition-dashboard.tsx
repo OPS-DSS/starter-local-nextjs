@@ -65,6 +65,8 @@ export default function MalnutritionDashboard() {
           xAxisKey="año"
           lines={getUniqueLines(filteredData.length > 0 ? filteredData : data)}
           height={500}
+          xAxisLabel="Año"
+          yAxisLabel="Tasa (%)"
         />
       </section>
 
